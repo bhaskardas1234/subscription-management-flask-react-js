@@ -1,0 +1,81 @@
+.back-image {
+    width: 25px;
+    cursor: pointer;
+}
+
+.transaction-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.all-transactions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.transaction-item:hover {
+    background-color: #e0e0e0;
+}
+
+.transaction-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.transaction-name-image {
+    width: 20px;
+}
+
+.transaction-time {
+    margin-left: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-rupees {
+    font-weight: bold;
+}
+
+
+.right-image {
+    width: 15px;
+}
+
+.wallet-debit {
+    color: red;
+}
+
+.article-purchase {
+    color: green;
+}
+
+.upi {
+    color: green;
+}
